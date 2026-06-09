@@ -1,0 +1,198 @@
+{
+  "inputs": {
+    "target_structure": "POSCAR-vortex.vasp",
+    "reference_structure": "POSCAR-PE.vasp",
+    "bec_dump": "bec_output.dump"
+  },
+  "units": {
+    "primary_polarization_unit": "uC/cm^2",
+    "csv_polarization_unit": "uC/cm^2",
+    "e_per_A2_to_C_per_m2": 16.02176634,
+    "e_per_A2_to_uC_per_cm2": 1602.176634
+  },
+  "structure": {
+    "natoms": 16000,
+    "elements": [
+      "Al",
+      "Bi",
+      "Ga",
+      "O"
+    ],
+    "counts": [
+      1600,
+      3200,
+      1600,
+      9600
+    ],
+    "volume_A3": 191276.27187634323,
+    "lattice_A": [
+      [
+        78.2340621948,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        78.2208175659,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        31.2566814423
+      ]
+    ]
+  },
+  "bec_coordinate_check": {
+    "max_abs_difference_A": 5.152800000018942e-05,
+    "max_norm_difference_A": 8.418683021879957e-05
+  },
+  "matching_and_displacements": {
+    "max_displacement_threshold_A": 2.0,
+    "species": {
+      "Al": {
+        "count": 1600,
+        "unique_reference_sites": 1600,
+        "max_nearest_distance_A": 0.4666608824939423,
+        "mean_displacement_A": 0.17840364631883307,
+        "p95_displacement_A": 0.3397338373298046,
+        "max_displacement_A": 0.4666608824939423,
+        "component_max_abs_displacement_A": [
+          0.1945681119999989,
+          0.21299528699999826,
+          0.44234768199999985
+        ],
+        "pbc_wrapped_components_count": [
+          0,
+          0,
+          0
+        ]
+      },
+      "Bi": {
+        "count": 3200,
+        "unique_reference_sites": 3200,
+        "max_nearest_distance_A": 0.749118895128665,
+        "mean_displacement_A": 0.3826185771962265,
+        "p95_displacement_A": 0.5871700242432002,
+        "max_displacement_A": 0.749118895128665,
+        "component_max_abs_displacement_A": [
+          0.4176916579999989,
+          0.4142574490000008,
+          0.662279069
+        ],
+        "pbc_wrapped_components_count": [
+          120,
+          68,
+          127
+        ]
+      },
+      "Ga": {
+        "count": 1600,
+        "unique_reference_sites": 1600,
+        "max_nearest_distance_A": 0.46854111487698263,
+        "mean_displacement_A": 0.17815371733597402,
+        "p95_displacement_A": 0.3452463295723678,
+        "max_displacement_A": 0.4685411148769826,
+        "component_max_abs_displacement_A": [
+          0.16968968100000126,
+          0.194613394000001,
+          0.4568476560000007
+        ],
+        "pbc_wrapped_components_count": [
+          0,
+          0,
+          0
+        ]
+      },
+      "O": {
+        "count": 9600,
+        "unique_reference_sites": 9600,
+        "max_nearest_distance_A": 0.9627733705630138,
+        "mean_displacement_A": 0.41255548094103894,
+        "p95_displacement_A": 0.6240904597386076,
+        "max_displacement_A": 0.9627733705630118,
+        "component_max_abs_displacement_A": [
+          0.6390158199999973,
+          0.6637818580000001,
+          0.9400759510000006
+        ],
+        "pbc_wrapped_components_count": [
+          2,
+          116,
+          39
+        ]
+      }
+    },
+    "overall": {
+      "max_displacement_A": 0.9627733705630118,
+      "mean_displacement_A": 0.35971274036934936,
+      "p95_displacement_A": 0.6007937328894573
+    }
+  },
+  "macro_polarization": {
+    "e_per_A2": [
+      -0.012295894084055339,
+      0.004881755628077147,
+      -0.002231773563048739
+    ],
+    "C_per_m2": [
+      -0.19700194195612294,
+      0.07821434800203199,
+      -0.03575695455095615
+    ],
+    "uC_per_cm2": [
+      -19.700194195612294,
+      7.8214348002032,
+      -3.575695455095615
+    ]
+  },
+  "local_ab_grid": {
+    "nx": 20,
+    "ny": 20,
+    "atoms_per_ab_column": 40,
+    "species_unique_fractional_levels": [
+      {
+        "element": "Al",
+        "unique_x": 20,
+        "unique_y": 20,
+        "unique_z": 4
+      },
+      {
+        "element": "Bi",
+        "unique_x": 20,
+        "unique_y": 20,
+        "unique_z": 8
+      },
+      {
+        "element": "Ga",
+        "unique_x": 20,
+        "unique_y": 20,
+        "unique_z": 4
+      },
+      {
+        "element": "O",
+        "unique_x": 40,
+        "unique_y": 40,
+        "unique_z": 16
+      }
+    ]
+  },
+  "local_statistics_uC_per_cm2": {
+    "mean_Pab": 53.68903258992877,
+    "max_Pab": 64.77958340523512,
+    "min_Pab": 29.41206425881033,
+    "mean_Pmag": 64.74338844260103,
+    "max_Pmag": 74.17643537223458,
+    "mean_Px": -19.700194195612326,
+    "mean_Py": 7.821434800203194,
+    "mean_Pz": -3.575695455095602,
+    "macro_Pab_from_cell_average": 21.196049011046043,
+    "cancellation_ratio": 0.39479290254565125
+  },
+  "outputs": [
+    "polarization_summary.json",
+    "local_polarization_ab.csv",
+    "local_polarization_ab.png",
+    "local_polarization_components.png"
+  ]
+}
