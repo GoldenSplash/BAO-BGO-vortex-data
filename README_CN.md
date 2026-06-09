@@ -1,6 +1,10 @@
 # 数据说明
 
-本数据集包含论文 *Emergent in-plane polar vortex state in a perovskite superlattice* 中正文和补充材料主要定量作图所用的数据，以及部分关键结构文件。论文 DOI：https://doi.org/10.1103/t198-356c。数据按图号整理。
+本数据集包含论文 *Emergent in-plane polar vortex state in a perovskite superlattice* 中正文和补充材料主要定量作图所用的数据，以及部分关键结构文件。
+
+论文 DOI：[https://doi.org/10.1103/t198-356c](https://doi.org/10.1103/t198-356c)
+
+数据按图号整理。
 
 ## 目录说明
 
